@@ -6,11 +6,13 @@ $(document).ready(function ()
 
     $('[data-action="open_mobile_menu"]').on('click', function()
     {
+        $('header.main_header').addClass('close');
         $('header.mobile_header').addClass('open');
     });
 
     $(document).on('click', '[data-action="close_mobile_menu"], header.mobile_header > nav > ul > li > a', function()
     {
+        $('header.main_header').removeClass('close');
         $('header.mobile_header').removeClass('open');
     });
 });

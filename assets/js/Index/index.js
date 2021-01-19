@@ -2,7 +2,7 @@
 
 $(document).ready(function ()
 {
-    var slideshow = $('.slideshow > .owl-carousel').owlCarousel({
+    var home = $('.home > .owl-carousel').owlCarousel({
         stagePadding: 0,
         items: 1,
         margin: 10,
@@ -14,20 +14,32 @@ $(document).ready(function ()
         loop: true
     });
 
-    $('.slideshow > .prev').on('click', function ()
-    {
-        slideshow.trigger('prev.owl.carousel');
-        slideshow.trigger('stop.owl.autoplay');
-
-        setTimeout(function() { slideshow.trigger('play.owl.autoplay'); }, '60000');
+    var projects = $('.projects > .owl-carousel').owlCarousel({
+        stagePadding: 0,
+        items: 1,
+        margin: 10,
+        nav: false,
+        dots: false,
+        autoplay: true,
+        autoplayTimeout: 4000,
+        rewind: true,
+        loop: true
     });
 
-    $('.slideshow > .next').on('click', function ()
+    $('.projects > .prev').on('click', function ()
     {
-        slideshow.trigger('next.owl.carousel');
-        slideshow.trigger('stop.owl.autoplay');
+        projects.trigger('prev.owl.carousel');
+        projects.trigger('stop.owl.autoplay');
 
-        setTimeout(function() { slideshow.trigger('play.owl.autoplay'); }, '60000');
+        setTimeout(function() { projects.trigger('play.owl.autoplay'); }, '60000');
+    });
+
+    $('.projects > .next').on('click', function ()
+    {
+        projects.trigger('next.owl.carousel');
+        projects.trigger('stop.owl.autoplay');
+
+        setTimeout(function() { projects.trigger('play.owl.autoplay'); }, '60000');
     });
 
     $('form[name="contact"]').on('submit', function(e)

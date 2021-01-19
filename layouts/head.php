@@ -18,8 +18,20 @@
 	</head>
 	<body>
 		<header class="main_header">
-
+			<a data-action="open_mobile_menu"><i class="fas fa-bars"></i></a>
 		</header>
-		<header class="main_mobile">
-
+		<header class="mobile_header">
+			<a data-action="close_mobile_menu"><i class="fas fa-window-close"></i></a>
+			<figure>
+				<img src="{$path.images}imagotype.png" alt="Imagotype">
+			</figure>
+			<nav>
+				<ul>
+					<li><a href="#home">Home</a></li>
+					<li><a href="#us">Nosotros</a></li>
+					<li><a href="#projects">Proyectos</a></li>
+					<li><a href="#services">Servicios</a></li>
+					<li><a href="#contact">Contacto</a> </li>
+				</ul>
+			</nav>
 		</header>
