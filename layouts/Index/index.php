@@ -16,11 +16,15 @@ $this->dependencies->add(['other', '<script async defer src="https://maps.google
     <section id="home" class="home">
         <div class="owl-carousel owl-theme">
             <div class="item" style="background-image: url('{$path.images}home_1.png');"></div>
+            <div class="item" style="background-image: url('{$path.images}project_1.png');"></div>
+            <div class="item" style="background-image: url('{$path.images}project_2.png');"></div>
+            <div class="item" style="background-image: url('{$path.images}project_3.png');"></div>
+            <div class="item" style="background-image: url('{$path.images}project_4.png');"></div>
         </div>
         <figure>
             <img src="{$path.images}logotype.png" alt="Logotype">
         </figure>
-        <a href="#contact">Contactanos</a>
+        <a href="#contact">Contacto</a>
     </section>
     <section id="us" class="us">
         <div>
@@ -35,16 +39,16 @@ $this->dependencies->add(['other', '<script async defer src="https://maps.google
     <section id="projects" class="projects">
         <div class="owl-carousel owl-theme">
             <div class="item" style="background-image: url('{$path.images}project_1.png');">
-                <h2>Titulo</h2>
+                <h2>AIRB&B S. CARRILLO</h2>
             </div>
             <div class="item" style="background-image: url('{$path.images}project_2.png');">
-                <h2>Titulo</h2>
+                <h2>CASA CANCHE</h2>
             </div>
             <div class="item" style="background-image: url('{$path.images}project_3.png');">
-                <h2>Titulo</h2>
+                <h2>CASA FT</h2>
             </div>
             <div class="item" style="background-image: url('{$path.images}project_4.png');">
-                <h2>Titulo</h2>
+                <h2>CASA TP</h2>
             </div>
         </div>
         <a class="prev"><i class="fas fa-chevron-left"></i></a>
@@ -54,13 +58,28 @@ $this->dependencies->add(['other', '<script async defer src="https://maps.google
         <a href="{$path.images}portafolio.pdf" download="portafolio.pdf">Descargar portafolio</a>
     </section>
     <section id="services" class="services" style="background-image: url('{$path.images}services.png');">
-        <h2><strong>¿Que podemos</strong> ofrecerte?</h2>
+        <h2><strong>¿Qué podemos</strong> ofrecerte?</h2>
         <div>
-            <h3><strong>1. Iniciemos</strong> el proyecto de <strong>la residencia</strong> que sueñas.</h3>
-            <h3><strong>2. Diseñamos el espacio</strong> perfecto para tus <strong>huéspedes o inquilinos</strong></h3>
-            <h3><strong>3.</strong> Hagamos de tu <strong>oficina o negocio</strong> un ambiente con estilo propio.</h3>
+            <div>
+                <figure>
+                    <img src="{$path.images}services_icon_1.png">
+                </figure>
+                <h3><strong>Iniciemos</strong> el proyecto de <strong>la residencia</strong></h3>
+            </div>
+            <div>
+                <figure>
+                    <img src="{$path.images}services_icon_3.png">
+                </figure>
+                <h3>Hagamos el espacio de <strong>oficina o negocio</strong></h3>
+            </div>
+            <div>
+                <figure>
+                    <img src="{$path.images}services_icon_2.png">
+                </figure>
+                <h3><strong>Diseñamos el espacio</strong> para tus <strong>huéspedes</strong></h3>
+            </div>
         </div>
-        <a href="#contact">Contactanos</a>
+        <a href="#contact">Contacto</a>
     </section>
     <section id="contact" class="contact">
         <h2>Contáctanos</h2>
