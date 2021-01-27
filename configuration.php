@@ -248,7 +248,7 @@ class Configuration
 	 *
      * @var string $smtp_pass
      */
-	public static $smtp_pass = 'Xxk71#g7';
+	public static $smtp_pass = 'Tk1@f7a6';
 
 	/**
      * Seguridad de la encriptacion para el envio de SMTP.

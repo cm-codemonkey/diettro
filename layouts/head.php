@@ -13,12 +13,21 @@
 		<meta name="description" content="" />
 		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
 		<link rel="stylesheet" href="https://cdn.codemonkey.com.mx/css/valkyrie.css?v=1.0" type="text/css" media="all" />
-		<link rel="stylesheet" href="{$path.css}styles.css?v=1.0" type="text/css" media="all" />
+		<link rel="stylesheet" href="{$path.css}styles.css?v=1.2" type="text/css" media="all" />
 		{$dependencies.css}
 	</head>
 	<body>
 		<header class="main_header">
 			<a data-action="open_mobile_menu"><i class="fas fa-bars"></i></a>
+			<nav>
+				<ul>
+					<li><a href="#home">Home</a></li>
+					<li><a href="#us">Nosotros</a></li>
+					<li><a href="#projects">Proyectos</a></li>
+					<li><a href="#services">Servicios</a></li>
+					<li><a href="#contact">Contacto</a> </li>
+				</ul>
+			</nav>
 		</header>
 		<header class="mobile_header">
 			<a data-action="close_mobile_menu"><i class="fas fa-window-close"></i></a>
