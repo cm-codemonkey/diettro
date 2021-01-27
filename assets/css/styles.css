@@ -266,16 +266,9 @@ main.main_body > section.home > a {
 
 main.main_body > section.us {
     width: 100%;
-    padding: 80px;
+    padding: 40px;
     box-sizing: border-box;
     background-color: #d6d5d5;
-}
-
-@media(max-width: 768px) {
-
-    main.main_body > section.us {
-        padding: 40px;
-    }
 }
 
 main.main_body > section.us > div {
@@ -494,18 +487,11 @@ main.main_body > section.services {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 80px;
+    padding: 40px;
     box-sizing: border-box;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-@media(max-width: 768px) {
-
-    main.main_body > section.services {
-        padding: 40px;
-    }
 }
 
 main.main_body > section.services > h2 {
@@ -541,7 +527,6 @@ main.main_body > section.services > div {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 40px 0px;
 }
 
 @media(max-width: 768px) {
@@ -599,25 +584,18 @@ main.main_body > section.services > a {
 
 /*  */
 
-main.main_body > section.contact {
+main.main_body > form.contact {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 80px;
+    padding: 40px;
     box-sizing: border-box;
     background-color: #d6d5d5;
 }
 
-@media (max-width: 768px) {
-
-    main.main_body > section.contact {
-        padding: 40px;
-    }
-}
-
-main.main_body > section.contact > h2 {
+main.main_body > form.contact > h2 {
     margin-bottom: 40px;
     font-family: 'BebasKai';
     font-size: 60px;
@@ -625,6 +603,50 @@ main.main_body > section.contact > h2 {
     text-transform: uppercase;
     letter-spacing: 5px;
     color: #212121;
+}
+
+main.main_body > form.contact > div.row,
+main.main_body > form.contact > div.row > fieldset {
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 10px;
+}
+
+main.main_body > form.contact > div.row > fieldset > h3 {
+    width: 100%;
+    margin-bottom: 5px;
+    font-family: 'Montserrat-Light';
+    font-size: 14px;
+    font-weight: 200;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+main.main_body > form.contact > div.row > fieldset > input,
+main.main_body > form.contact > div.row > fieldset > textarea,
+main.main_body > form.contact > button {
+    width: 100%;
+    height: 40px;
+    padding: 20px;
+    border: 0px;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.4);
+    font-size: 14px;
+    font-weight: 400;
+    color: #212121;
+}
+
+main.main_body > form.contact > div.row > fieldset > textarea {
+    height: 200px;
+}
+
+main.main_body > form.contact > button {
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #212121;
+    color: #fff;
 }
 
 /*  */
@@ -635,15 +657,8 @@ footer.main_footer {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 80px;
+    padding: 40px;
     box-sizing: border-box;
-}
-
-@media (max-width: 768px) {
-
-    footer.main_footer {
-        padding: 40px;
-    }
 }
 
 footer.main_footer > figure,
