@@ -247,8 +247,8 @@ main.main_body > section.home > div.owl-carousel .item {
 
 main.main_body > section.home > a {
     width: 100%;
-    max-width: 200px;
-    height: 60px;
+    max-width: 100px;
+    height: 40px;
     position: absolute;
     bottom: 40px;
     display: flex;
@@ -401,7 +401,7 @@ main.main_body > section.projects > div.owl-carousel .item {
 main.main_body > section.projects > div.owl-carousel .item > h2,
 main.main_body > section.projects > div.owl-carousel .item > p {
     width: 100%;
-    padding: 40px;
+    padding: 20px 40px;
     box-sizing: border-box;
     background-color: rgba(53, 58, 50, 0.8);
     font-family: 'Montserrat-Light';
@@ -466,8 +466,8 @@ main.main_body > section.portafolio {
 
 main.main_body > section.portafolio > a {
     width: 100%;
-    max-width: 200px;
-    height: 60px;
+    max-width: 150px;
+    height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -537,7 +537,8 @@ main.main_body > section.services > div {
 }
 
 main.main_body > section.services > div > div {
-    padding: 20px;
+    padding: 20px 40px;
+    box-sizing: border-box;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -546,21 +547,32 @@ main.main_body > section.services > div > div {
 
 main.main_body > section.services > div > div > figure {
     width: 100%;
-    height: 250px;
+    height: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-main.main_body > section.services > div > div > h3 {
+main.main_body > section.services > div > div > figure > img {
+    width: auto;
+    height: 100%;
+}
+
+main.main_body > section.services > div > div > h3,
+main.main_body > section.services > p {
+    max-width: 600px;
     padding: 20px;
     box-sizing: border-box;
     font-family: 'Montserrat-Light';
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 200;
     text-transform: uppercase;
     text-align: center;
     color: #d6d5d5;
+}
+
+main.main_body > section.services > p {
+    margin: 30px 0px 40px 0px;
 }
 
 main.main_body > section.services > div > div > h3 > strong,
@@ -570,8 +582,8 @@ main.main_body > section.services > div > div > h3 > span {
 
 main.main_body > section.services > a {
     width: 100%;
-    max-width: 200px;
-    height: 60px;
+    max-width: 100px;
+    height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;

@@ -29,7 +29,7 @@ $this->dependencies->add(['other', '<script async defer src="https://maps.google
     <section id="us" class="us">
         <div>
             <h1><strong>Detrás de la</strong> arquitectura</h1>
-            <p>Todo proyecto tiene su raíz, su punto de partida. Estámos abocados a entender profundamente el proposito de cada uno de nuestros espacios, para proponer una solución más humana, que abrace al usuario. Somos una sociedad arquitectónica que plasma sentimientos en un espacio.</p>
+            <p>Todo proyecto tiene su raíz, su punto de partida. Estamos abocados a entender profundamente el propósito de cada uno de nuestros espacios, para proponer una solución más humana, que abrace al usuario. Somos una sociedad arquitectónica que plasma sentimientos en un espacio.</p>
         </div>
         <figure>
             <img src="{$path.images}signature_1.png" alt="Signature">
@@ -59,24 +59,25 @@ $this->dependencies->add(['other', '<script async defer src="https://maps.google
     </section>
     <section id="services" class="services" style="background-image: url('{$path.images}services.png');">
         <h2><strong>¿Qué podemos</strong> ofrecerte?</h2>
+        <p>Diseñamos y construimos proyectos únicos, personalizados y que demuestran la esencia y estilo de cada cliente.</p>
         <div>
             <div>
                 <figure>
                     <img src="{$path.images}services_icon_1.png">
                 </figure>
-                <h3><strong>Iniciemos</strong> el proyecto de <strong>la residencia</strong></h3>
+                <h3>Residencia</h3>
             </div>
             <div>
                 <figure>
                     <img src="{$path.images}services_icon_3.png">
                 </figure>
-                <h3>Hagamos el espacio de <strong>oficina o negocio</strong></h3>
+                <h3>Local u oficina</h3>
             </div>
             <div>
                 <figure>
                     <img src="{$path.images}services_icon_2.png">
                 </figure>
-                <h3><strong>Diseñamos el espacio</strong> para tus <strong>huéspedes</strong></h3>
+                <h3>Airb&b</h3>
             </div>
         </div>
         <a href="#contact">Contacto</a>
