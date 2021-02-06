@@ -84,28 +84,12 @@ $this->dependencies->add(['other', '<script async defer src="https://maps.google
     </section>
     <form id="contact" class="contact">
         <h2>Contáctanos</h2>
-        <div class="row">
-            <fieldset class="col-12 col-lg-6">
-                <h3>Nombre</h3>
-                <input type="text" name="name">
-            </fieldset>
-            <fieldset class="col-12 col-lg-6">
-                <h3>Apellido</h3>
-                <input type="text" name="lastname">
-            </fieldset>
-            <fieldset class="col-12">
-                <h3>Correo electrónico</h3>
-                <input type="email" name="email">
-            </fieldset>
-            <fieldset class="col-12">
-                <h3>Ciudad</h3>
-                <input type="text" name="city">
-            </fieldset>
-            <fieldset class="col-12">
-                <h3>Mensaje</h3>
-                <textarea name="message"></textarea>
-            </fieldset>
-        </div>
-        <button type="submit">Enviar</button>
+        <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
+        <script>
+          hbspt.forms.create({
+        	portalId: "9368916",
+        	formId: "90be8c51-d5a9-4059-9178-be4abad14a45"
+        });
+        </script>
     </form>
 </main>
